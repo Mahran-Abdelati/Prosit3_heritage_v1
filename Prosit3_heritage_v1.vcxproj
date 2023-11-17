@@ -127,7 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CLpoint.cpp" />
+    <ClCompile Include="CLpoint3D.cpp" />
+    <ClCompile Include="Parcours.cpp" />
+    <ClCompile Include="Parcours_2D.cpp" />
+    <ClCompile Include="Parcours_3D.cpp" />
     <ClCompile Include="Prosit3_heritage_v1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CLpoint.h" />
+    <ClInclude Include="CLpoint3D.h" />
+    <ClInclude Include="Parcours.h" />
+    <ClInclude Include="Parcours_2D.h" />
+    <ClInclude Include="Parcours_3D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
