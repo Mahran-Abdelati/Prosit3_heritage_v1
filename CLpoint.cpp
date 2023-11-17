@@ -15,10 +15,19 @@ CLpoint::CLpoint(int x, int y)
 	this -> y = y;
 }
 
-void CLpoint::set_point(int x, int y)
+void CLpoint::set_x(int x)
 {
 	this -> x = x;
-	this -> y = y;
+}
+
+void CLpoint::set_y(int y)
+{
+	this->y = y;
+}
+
+void CLpoint::set_z(int z)
+{
+	this->z = z;
 }
 
 int CLpoint::get_x()
@@ -33,10 +42,10 @@ int CLpoint::get_y()
 
 int CLpoint::get_z()
 {
-	return this -> z;
+	return this->z;
 }
 
-void CLpoint::deplacer_point(int x, int y)
+void CLpoint::deplacer_point2D(int x, int y)
 {
 	this -> x = this -> x + x;
 	this -> y = this -> y + y;
@@ -46,4 +55,5 @@ void CLpoint::afficherCoordo()
 {
 	cout << "Composante x du point : " << this -> x << endl;
 	cout << "Composante y du point : " << this -> y << endl;
+	cout << "Composante z du point : " << this->z << endl;
 }

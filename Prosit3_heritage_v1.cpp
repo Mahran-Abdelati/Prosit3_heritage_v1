@@ -2,8 +2,16 @@
 //
 
 #include <iostream>
+#include "CLpoint.h"
+#include "CLpoint3D.h"
+
 
 int main()
 {
     std::cout << "Hello World!\n";
+    CLpoint point1;
+    CLpoint3D point2;
+
+    point1.afficherCoordo();
+    point2.afficherCoordo();
 }
