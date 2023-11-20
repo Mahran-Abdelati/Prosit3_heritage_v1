@@ -4,8 +4,14 @@
 
 using namespace std;
 
-Parcours_2D::Parcours_2D(void)
+Parcours_2D::Parcours_2D()
 {
+	this->list_point[1];
+}
+
+Parcours_2D::Parcours_2D(int x)
+{
+	this->list_point[x];
 	cout << "Ceation d'un parcours 2D" << endl;
 }
 

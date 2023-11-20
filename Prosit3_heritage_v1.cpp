@@ -17,12 +17,12 @@ int main()
     point1.afficherCoordo();
     point2.afficherCoordo();
 
-    Parcours_2D parcours1;
+    Parcours_2D parcours1(1);
     parcours1.ajouterPoint(point1);
     parcours1.calculDistance();
     parcours1.message();
 
-    Parcours_3D parcours2;
+    Parcours_3D parcours2(1);
     parcours2.ajouterPoint(point2);
     parcours2.calculDistance();
     parcours2.message();
