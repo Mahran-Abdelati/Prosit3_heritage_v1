@@ -4,6 +4,8 @@
 #include <iostream>
 #include "CLpoint.h"
 #include "CLpoint3D.h"
+#include "Parcours_2D.h"
+#include "Parcours_3D.h"
 
 
 int main()
@@ -14,4 +16,14 @@ int main()
 
     point1.afficherCoordo();
     point2.afficherCoordo();
+
+    Parcours_2D parcours1;
+    parcours1.ajouterPoint(point1);
+    parcours1.calculDistance();
+    parcours1.message();
+
+    Parcours_3D parcours2;
+    parcours2.ajouterPoint(point2);
+    parcours2.calculDistance();
+    parcours2.message();
 }
